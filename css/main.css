@@ -1,0 +1,248 @@
+.header {
+    top: 0px;
+    overflow: hidden;
+    padding-left: 22%;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 1px #888888;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    height: 70px;
+    width:100%;
+    display: block;
+    position: fixed;
+}
+
+.header img {
+    width: 7em;
+    height: 2.5em;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.header nav, nav a {
+    display: inline;
+    text-decoration: none;
+    font-family: "Roboto", Arial, sans-serif;
+    color: #999a95;
+    font-size: 10px;
+}
+
+.left-header {
+    display: inline-block;
+    position: fixed;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.search-bar {
+    padding-top: 17px;
+}
+
+.sub1 {
+    border-style: solid none solid solid;
+    border-color:#e7e7e7;
+    border-width:1px;
+    -moz-border-radius-bottomleft: 5px;
+}
+
+#subsub1 {
+    width:60px;
+    border:0px solid;
+    height:13px;
+    padding:0px 3px;
+    position:relative;
+}
+
+.sub2 {
+    border-style:solid;
+    border-color:#e7e7e7;
+    border-width:1px;
+}
+
+#subsub2 {
+    border-style: none;
+    background: url('../image/searchBtn.png') no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 14px;
+}
+
+li {
+    list-style: none;
+}
+
+.section-1 {
+    width: 100%;
+    left: 40%;
+    padding-bottom: 10px;
+    float: left;
+    font-family: "Roboto", Arial, sans-serif;
+    background-image: url('../image/slide-bg-complexity.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: center;
+    background-position-y: 70px;
+    padding-top: 40px;
+}
+
+.section-1 article {
+    padding-left: 22%;
+    width: 50%;
+}
+
+article h1, p {
+    color: white;
+    font-weight: 100;
+}
+
+article span {
+    display: block;
+}
+
+article p {
+    font-size: 70%;
+    letter-spacing: 1px;
+}
+
+button {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 10px;
+    background-color: #288fc5;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #3696c6;
+    cursor: pointer;
+    width: 140px;
+    display: inline-flex;
+}
+
+#triangle {
+    padding-left: -30px;
+    border-top: 3px solid transparent;
+    border-left: 6px solid white;
+    border-bottom: 3px solid transparent;
+    text-align: center;
+}
+
+.btn-info {
+    float: left
+}
+
+.main-box {
+    padding-left: 22%;
+    width: 70%;
+}
+
+.main-box li p {
+    padding-left: 7px;
+}
+
+.main-box ul {
+    padding-left: 0px;
+}
+
+.main-box li, .events p {
+    border-radius: 6px;
+    box-shadow: 0px 1px 1px #888888;
+    box-sizing: border-box;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin: 10px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.main-box img {
+    float: left;
+    padding-left: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.pink {
+    background-color: #f8479c;
+}
+
+.grin {
+    background-color: #6dc246;
+}
+
+.orange {
+    background-color: #fd752c;
+}
+
+.services {
+    background-color: #4fa7c8;
+    text-align: center;
+    height: 600px;
+}
+
+h2 {
+    padding: 10px;
+    font-family: "Roboto", Arial, sans-serif;
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+ul {
+    padding-left: 25%;
+}
+
+.services li, .events li {
+    display: block;
+    float: left;
+}
+
+li span {
+    display: block;
+    font-size: 10px;
+    padding-left: 10px;
+    width: 90px;
+}
+
+li img {
+    width: 70px;
+    height: 70px;
+}
+
+.events {
+    width: 100%;
+    left: 40%;
+    padding-bottom: 10px;
+    float: left;
+    font-family: "Roboto", Arial, sans-serif;
+    background-image: url('../image/news-and-events-bg.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: center;
+    background-position-y: 70px;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+footer {
+    padding: 40px 20px 0px 20px;
+}
+
+.links-col {
+    display: inline;
+    float: left;
+}
+
+footer p {
+    color: #a8a8a8;
+    clear: both;
+    width: 100%;
+    text-align: left;
+}
