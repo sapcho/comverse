@@ -91,21 +91,21 @@ li {
     padding-top: 50px;
 }
 
-.section-1 section {
+.section-1 div {
     padding-left: 22%;
     width: 50%;
 }
 
-section h1, p, h2 {
+div h1, p, h2 {
     color: white;
     font-weight: 100;
 }
 
-section span {
+div span {
     display: block;
 }
 
-section p {
+div p {
     font-size: 70%;
     letter-spacing: 1px;
 }

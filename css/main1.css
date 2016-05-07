@@ -1,48 +1,64 @@
 html {
-    font-family: "cursive", "Myriad Pro", sans-serif;
-    color: #ffffff;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    padding-left: 0;
+    width:100%;
+
 }
 
 .header {
     top: 0px;
     overflow: hidden;
-    padding-left: 22%;
+    padding-left: 10em;
     background-color: #ffffff;
     box-shadow: 0px 1px 1px #888888;
     box-sizing: border-box;
-    padding-bottom: 10px;
-    height: 70px;
+    height: 50px;
     width:100%;
     display: block;
     position: fixed;
 }
 
 .header img {
-    width: 7em;
-    height: 2.5em;
+    width: 5.5em;
+    height: 1.5em;
     padding-top: 5px;
-    padding-right: 10px;
+    padding-right: 1em;
 }
 
 .header nav, nav a {
     display: inline;
     text-decoration: none;
     color: #999a95;
-    font-size: 10px;
-    letter-spacing: 1px;
-    margin: 5px;
+    font-size: 0.7em;
+}
+
+nav>a:after {
+    content: '|';
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    color: #d1d1d1;
+}
+
+nav>a:last-of-type:after {
+    content: '';
 }
 
 .left-header {
     display: inline-block;
     position: fixed;
-    padding-left: 20px;
-    padding-top: 5px;
+    padding-left: 2em;
+    padding-top: 0.5em;
+    font-size: 0.9em;
 }
 
 .search-bar {
     padding-top: 10px;
 }
+
 
 .sub1 {
     border-style: solid none solid solid;
@@ -69,8 +85,8 @@ html {
     border-style: none;
     background: url('../image/searchBtn.png') no-repeat;
     background-position: center;
-    width: 20px;
-    height: 14px;
+    width: 18px;
+    height: 12px;
 }
 
 li {
@@ -154,7 +170,6 @@ button {
     width: 180px;
     height: 100px;
     float: left;
-    letter-spacing: 1px;
     font-size: 12px;
     opacity: 0.9;
     margin-right: 10px;
