@@ -9,7 +9,7 @@ html {
 
 }
 
-div, h1, p, h2 {
+div, h1, p, h2, h3 {
     color: white;
     font-weight: 100;
 }
@@ -37,19 +37,19 @@ button {
     width: 13em;
     display: inline-flex;
     color: #ffffff;
+    margin-bottom: 5px;
 }
 
 button img {
     padding-left: 4em;
     height: 1em;
     width: auto;
-    float: left;
 }
 
 .auto-margin {
     /*padding-left: 13em;*/
     margin: auto;
-    width: 45%;
+    width: 50%;
 }
 
 .header {
@@ -60,8 +60,8 @@ button img {
     box-sizing: border-box;
     height: 50px;
     width:100%;
-    display: block;
     position: fixed;
+    z-index: 1;
 }
 
 .header a {
@@ -70,7 +70,6 @@ button img {
 
 .header img {
     padding-top: 5px;
-    padding-right: 1em;
 }
 
 .right-nav, .left-nav, nav a{
@@ -132,7 +131,6 @@ nav>a:last-of-type:after{
 
 .section-1 {
     width: 100%;
-    left: 40%;
     padding-bottom: 10px;
     float: left;
     background-image: url('../image/slide-bg-complexity.jpg');
@@ -150,6 +148,10 @@ nav>a:last-of-type:after{
 
 .section-1 div p {
     padding-top: 0px;
+}
+
+.main-box {
+    z-index: -1;
 }
 
 .main-box li p {
@@ -203,13 +205,15 @@ h2 {
     text-align: center;
     font-weight: 100;
     font-size: 1em;
-    padding-top: 4em;
+    padding-top: 0em;
 }
 
-.services-icons, .services-icons ul {
+
+.services-icons {
     margin: 0;
-    width: 100%;
     padding-left: 0;
+    padding-top: 1.5em;
+
 }
 
 .services-icons li, .events li {
@@ -220,8 +224,7 @@ h2 {
 }
 
 .services-icons span {
-    text-align: center;
-    bottom: 0;
+
 }
 
 .services-icons li img {
@@ -235,31 +238,94 @@ h2 {
     position: absolute;
 }
 
-/*
+
 li span {
     display: block;
-    font-size: 10px;
-    padding-left: 10px;
-    width: 90px;
-}
-
-.events {
-    width: 100%;
-    left: 40%;
-    padding-bottom: 10px;
-    float: left;
-    background-image: url('../image/news-and-events-bg.jpg');
-    background-attachment: inherit;
-    background-repeat: no-repeat;
-    background-size: 100% ;
-    background-position: center;
-    background-position-y: 0px;
+    font-size: 0.4em;
+    padding-left: 0;
+    width: auto;
     text-align: center;
 }
 
-h3 {
+.events {
+    display: block;
+    width: 100%;
+    padding-bottom: 10px;
     float: left;
-    font-weight: 100;
+    background-image: url('../image/news-and-events-bg.jpg');
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-position: center;
+    background-position-y: 0em;
+    color: #222222;
+}
+
+.main-event-box {
+    padding-top: 0;
+}
+
+.main-event-box li {
+    margin-right: 3em;
+
+}
+
+#trans {
+    color: transparent;
+}
+
+.event-box {
+    background-color: #a59b93;
+    box-sizing: border-box;
+    width: 180px;
+    height: 60px;
+    float: left;
+    letter-spacing: 1px;
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.date {
+    float: left;
+    background-color: #399aca;
+    box-sizing: border-box;
+    margin: 5px;
+    width: 40px;
+    height: 50px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+#num {
+    font-size: 2em;
+    text-align: center;
+    padding-left: 0.2em;
+}
+
+#month {
+    border-top: #ffffff;
+    border-bottom: hidden;
+    text-align: center;
+    font-size: 1em;
+    padding-left: 0.7em;
+}
+/*
+.main-event-box img {
+    padding-top: 12px;
+    width: 10px;
+    height: 10px;
+    display: block;
+    float: left;
+}
+
+.main-event-box p {
+    display: block;
+    float: left;
+    padding-left: 7px;
+    width: 100px;
+    text-align: left;
+    color: black;
 }
 
 .event-box {
@@ -334,14 +400,14 @@ h3 {
 #footer {
     color: #ffffff;
 }
-
+*/
 .stories {
     text-align: center;
-    height: 600px;
+    height: auto;
     background-color: #ececec;
     display: block;
 }
-
+/*
 .style_box {
     background-color: #ffffff;
     box-sizing: border-box;
