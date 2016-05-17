@@ -217,35 +217,36 @@ h2 {
     padding-top: 1em;
 }
 
-.main-box ul, .main-event-box{
+.main-event-box{
     padding-left: 0em;
 }
 
+ul.services-icons {
+    padding-left: 0;
+}
 
-.services-icons li, .events li {
-    display: block;
+.margin-services {
+    text-align: center;
+}
+
+.events li {
     float: left;
     width: 10%;
     padding-left: 0em;
 }
 
 .services-icons li {
-    margin: auto;
+    display: inline-block
 }
 
 .services-icons {
     position: relative;
-    padding-bottom: 3em;
     text-align: center;
-    margin: auto;
-    width: 3em;
-
 }
 
 .services-icons li img {
     width: auto;
-    height: 40px;
-    margin: auto;
+    height: 50px;
 }
 
 .btn-container {
@@ -260,7 +261,7 @@ li span {
     display: block;
     font-size: 0.4em;
     padding-left: 0;
-    width: auto;
+    width: 10em;
     text-align: center;
 }
 
