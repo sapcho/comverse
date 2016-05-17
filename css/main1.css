@@ -73,7 +73,9 @@ button img {
 }
 
 .header img {
-    padding-top: 1rem;
+    padding-top: 0.5em;
+    width: 6em;
+    height: auto;
 }
 
 .header nav {
@@ -160,12 +162,15 @@ nav>a:last-of-type:after{
 
 .main-box {
     z-index: -1;
-    margin-bottom: 100px;
+    margin-bottom: 3em;
+}
+
+.main-box ul, .links ul {
+    padding-left: 0;
 }
 
 .main-box li p {
     padding-left: 0.6em;
-    padding-right: 1em;
     font-size: 0.6em;
 }
 
@@ -181,6 +186,7 @@ nav>a:last-of-type:after{
 }
 
 .main-box img {
+    display: block;
     float: left;
     padding-left: 0.3em;
     padding-right: 0.3em;
@@ -203,6 +209,8 @@ nav>a:last-of-type:after{
 
 .services {
     background-color: #4fa7c8;
+    background-image: url('../image/solutions-bg.png');
+    background-attachment: fixed;
     padding-bottom: 2em;
     position: relative;
     width: 100%;
@@ -236,7 +244,7 @@ ul.services-icons {
 }
 
 .services-icons li {
-    display: inline-block
+    display: inline-block;
 }
 
 .services-icons {
@@ -276,7 +284,6 @@ li span {
     background-position: 50% 50%;
     background-size: cover;
     padding-bottom: 1em;
-
 }
 
 
@@ -355,30 +362,87 @@ h3 {
 }
 
 .stories {
-    text-align: center;
-    height: auto;
     background-color: #ececec;
+    padding-bottom: 2em;
+    position: relative;
+    width: 100%;
+    /*height: auto;*/
+    height: 700px;
+    float: left;
 }
 
-.style_box {
-    background-color: #ffffff;
-    box-sizing: border-box;
-    width: 180px;
-    height: 80px;
-    float: left;
-    letter-spacing: 1px;
-    font-size: 12px;
-    opacity: 0.9;
-    display: block;
+.stories h2, .quats p, .info h5, .info p{
+    color: #000000;
 }
+
+li#thumb-6{
+    width: 108px;
+    height: 95px;
+}
+
+#thumb-6 img {
+}
+
+#thumb-1, #thumb-8 {
+    background: #ffffff;
+    width: 300px;
+    padding: 1em 1em;
+    list-style: none;
+}
+
+#thumb-1 img, #thumb-8 img {
+    width: 70px;
+    height:70px;
+    display: inline;
+    float: left;
+    margin-right: 5px;
+}
+
+/*#thumb-1>img:first-of-type {
+  width: 15px;
+  height: 15px;
+  padding-left: 1em;
+}*/
+#thumb-1 .quats{
+    padding-left: 2em;
+    width: 230px;
+}
+
+#thumb-1 .quats img {
+    width: 15px;
+    height: 15px;
+}
+
+#thumb-1 .quats p, #thumb-8 p {
+    display: inline;
+    padding-left: 10px;
+}
+
+.info {
+    border: black;
+}
+
+.info img {
+    display: inline;
+    float: left;
+}
+
 
 footer {
     background: #222222;
 }
 
-.links-col, .links-col a {
+.links-col {
     display: inline;
     float: left;
+    color: #f6f6f6;
+    font-size: 0.7em;
+    padding-bottom: 1em;
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+.links-col a {
     color: #f6f6f6;
     font-size: 0.7em;
     padding-bottom: 1em;
