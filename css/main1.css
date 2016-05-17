@@ -15,8 +15,8 @@ div, h1, p, h2, h3 {
 }
 
 h1 {
-    font-size: 1em;
-    padding-top: 2em;
+    font-size: 1rem;
+    padding-top: 2.5rem;
 }
 
 h2 {
@@ -30,7 +30,7 @@ li {
 }
 
 p, span {
-    font-size: 0.5em;
+    font-size: 0.6em;
 }
 
 button {
@@ -52,12 +52,8 @@ button img {
 }
 
 .auto-margin {
-    /*padding-left: 13em;*/
-    margin: auto;
-    width: 50%;
-    padding-left: 6em;
-    padding-bottom: 1em;
-
+    margin: 0 auto;
+    width: 940px;
 }
 
 .header {
@@ -66,7 +62,7 @@ button img {
     background-color: #ffffff;
     box-shadow: 0px 1px 1px #888888;
     box-sizing: border-box;
-    height: 50px;
+    height: 3rem;
     width:100%;
     position: fixed;
     z-index: 1;
@@ -77,18 +73,19 @@ button img {
 }
 
 .header img {
-    padding-top: 5px;
+    padding-top: 1rem;
 }
 
 .header nav {
-    padding-left: 2em;
+    padding-left: 2rem;
 }
 
 .right-nav, .left-nav, nav a{
     display: inline;
     text-decoration: none;
     color: #999a95;
-    font-size: 0.5em;
+    font-size: 0.7em;
+    margin: 0 auto;
 }
 
 nav>a:after,  .right-nav>a:first-of-type:after{
@@ -104,10 +101,10 @@ nav>a:last-of-type:after{
 
 .right-nav {
     display: inline-block;
-    position: fixed;
+    float: right;
     padding-left: 0.5em;
-    padding-top: 2px;
     width: auto;
+    padding-top: 1rem;
 }
 
 .search-bar {
@@ -143,15 +140,14 @@ nav>a:last-of-type:after{
 
 .section-1 {
     width: 100%;
-    padding-bottom: 10px;
+    height: 100%;
     float: left;
     background-image: url('../image/slide-bg-complexity.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% ;
     background-position: center;
-    background-position-y: 0em;
-    background-position-x: 0em;
+    background-size: cover;
+    padding-bottom: 1em;
 }
 
 .section-1 div span {
@@ -160,20 +156,18 @@ nav>a:last-of-type:after{
 }
 
 .section-1 div p {
+    padding-bottom: 0;
 }
 
 .main-box {
     z-index: -1;
+    margin-bottom: 100px;
 }
 
 .main-box li p {
     padding-left: 1em;
     padding-right: 1em;
     font-size: 0.45em;
-}
-
-.main-box ul {
-    padding-left: 0;
 }
 
 .main-box li {
@@ -184,7 +178,7 @@ nav>a:last-of-type:after{
     height: 80px;
     float: left;
     opacity: 0.9;
-    margin-right: 10px;
+    margin-right: 2em;
 }
 
 .main-box img {
@@ -208,44 +202,47 @@ nav>a:last-of-type:after{
 }
 
 .services {
-    height: auto;
     background-color: #4fa7c8;
-    padding: 0em;
-    padding-top: 3.5em;
     padding-bottom: 2em;
+    position: relative;
+    width: 100%;
+    height: auto;
+    float: left;
 }
 
 h2 {
     text-align: center;
     font-weight: 100;
     font-size: 1em;
-    padding-top: 10em;
+    padding-top: 1em;
 }
 
-.auto-margin ul{
+.main-box ul, .main-event-box{
     padding-left: 0em;
 }
+
 
 .services-icons li, .events li {
     display: block;
     float: left;
-    width: 15%;
+    width: 10%;
     padding-left: 0em;
 }
 
 .services-icons {
+    position: relative;
     padding-bottom: 3em;
-    padding-top: 0em;
-}
-
-.services-icons ul>button {
-    padding-left: 3em;
+    text-align: center;
 }
 
 .services-icons li img {
     width: auto;
     height: 40px;
     margin: auto;
+}
+
+.btn-container {
+    text-align: center;
 }
 
 .btn-info {
@@ -261,35 +258,29 @@ li span {
 }
 
 .events {
+    position: relative;
     width: 100%;
     height: auto;
     float: left;
     background-image: url('../image/news-and-events-bg.jpg');
-    background-attachment: inherit;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 100% ;
-    background-position-y: 0;
-    background-position-y: 0;
-
-    color: #222222;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
-.events .auto-margin h2{
-    padding-top: 0em;
-}
 
 .main-event-box li {
-    margin-right: 3em;
+    margin-right: 4em;
     margin-top: 0em;
+}
+
+.main-event-box li:first-child:after {
     margin-left: 1em;
 }
 
 #trans {
     color: transparent;
-}
-
-.auto-margin-events h2 {
-    padding-top: 0em;
 }
 
 h3 {
@@ -369,7 +360,6 @@ h3 {
     font-size: 12px;
     opacity: 0.9;
     display: block;
-    float: left;
 }
 
 footer {
