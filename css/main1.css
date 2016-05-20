@@ -257,12 +257,8 @@ ul.services-icons {
     height: 50px;
 }
 
-.btn-container {
-    text-align: center;
-}
-
 .btn-info {
-
+    display: block;
 }
 
 li span {
@@ -368,13 +364,17 @@ h3 {
     padding-bottom: 2em;
     position: relative;
     width: 100%;
-    /*height: auto;*/
-    height: 700px;
+    height: auto;
     float: left;
 }
 
 .stories h2, .quats p, .info p{
     color: #000000;
+    margin-bottom: 0;
+    margin-top: 0px;
+    line-height: 1.2em;
+    font-size: 0.7em;
+
 }
 
 .stories a {
@@ -383,6 +383,10 @@ h3 {
 
 ul.style_box {
     padding-left: 0;
+}
+
+.style_box li {
+    float: left;
 }
 
 #thumb-1, #thumb-8{
@@ -409,18 +413,17 @@ ul.style_box {
     height: 110px;
 }
 
-#thumb-1 .quats #thumb-8 .quats{
+#thumb-1 .quats #thumb-8 .quats {
     padding-left: 2.3em;
     width: 245px;
     line-height: 0.8em;
 }
 
 #thumb-9 img {
-    width: auto;
-    display: block;
-    float: left;
-    margin-right: 10px;
-    height: 110px;
+    right: 0;
+    width: 70px;
+    height: auto;
+    margin-right: 0;
 }
 
 #thumb-1 .quats img, #thumb-8 .quats img {
@@ -443,7 +446,6 @@ ul.style_box {
     border-style: solid;
     margin-top: 20px;
     display: block;
-    width: 290px;
     height:50px;
     border-top: 1px solid #dddddd;
     position: relative;
@@ -463,10 +465,9 @@ h5 {
 
 #thumb-1 p, #thumb-8 p {
     margin-top: 5px;
-    widht: auto;
     font-size: 0.5em;
-
 }
+
 
 #pic img{
     display: inline;
@@ -476,14 +477,6 @@ h5 {
     right: 0;
     margin-right: 0;
 }
-
-/*.style_box li:nth-child(1n+0) {
-    float: left;
-}
-
-.style_box li:nth-child(2) {
-    display: block;
-}*/
 
 #thumb-1 {
     display: block;
@@ -501,9 +494,8 @@ img {
     text-decoration: none;
 }
 
-#hidden {
-    color: transparent;
-
+#pic-right-col {
+    margin-top: 0;
 }
 
 footer {
@@ -532,4 +524,8 @@ footer p {
     clear: both;
     width: 100%;
     text-align: left;
+}
+.btn-container {
+    display: block;
+    text-align: center;
 }
