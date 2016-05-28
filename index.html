@@ -5,7 +5,7 @@
 	<title>Comverse</title>
 
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/main1.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
 <body>
@@ -13,7 +13,7 @@
         <div class="header">
             <div class="auto-margin">
                 <a href="#">
-                    <img src="image/comverse-logo-medium.png" alt="comverse logo">
+                    <img src="image/comverse-logo.png" alt="comverse logo">
                 </a>
                 <nav class="left-nav">
                     <a href="#">YOUR NEEDS</a>
@@ -21,7 +21,7 @@
                     <a href="#">NEWS & MEDIA</a>
                     <a href="#">ABOUT COMVERSE</a>
                 </nav>
-                <!--<nav class="right-nav">
+                <div class="right-nav">
                     <a>
                         <select class="languages">
                             <option value="EN">EN</option>
@@ -44,7 +44,7 @@
                             </form>
                         </li>
                     </a>
-                </nav>-->
+                </div>
             </div>
         </div>
 	</header>
@@ -54,27 +54,32 @@
             <div class="auto-margin">
                 <h1><span>Free</span> Your Market From <br>IT <span>Complexity</span></h1>
                 <p>Comverse Policy Studio<br> <span>1st</span> Ever Marketing-Oriented Policy Tool</p>
-                <button type="button">
+                <div class="btn">
+                    <p>LEARN MORE</p>
+                    <img src="image/btnArrow.png" alt="button arrow">
+                </div>
+
+                <!--<button type="button">
                     <a>LEARN MORE</a>
                     <img src="image/btnArrow.png" alt="button arrow">
-                </button>
+                </button>!-->
 
                 <div class="main-box">
                     <ul>
                         <li class="pink">
                             <p>Comverse Is Value-Added Service Global Market Leader</p>
                             <img src="image/link-icon-image.png" alt="link icon">
-                            <p id="p-pad">Read More</p>
+                            <span>Read More</span>
                         </li>
                         <li class="grin">
                             <p>Managed Services World Congress September 18-19 Berlin, Germany</p>
                             <img src="image/link-icon-image.png" alt="link icon">
-                            <p>Read More</p>
+                            <span>Read More</span>
                         </li>
                         <li class="orange">
                             <p>Comverse: Enabling a world of Conected Possibilities</p>
                             <img src="image/link-icon-image.png" alt="link icon">
-                            <p>Watch Now</p>
+                            <span>Watch Now</span>
                         </li>
                     </ul>
                 </div>
@@ -112,11 +117,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="btn-container">
-                    <button type="button">
-                        <a class="btn-info">See all of our solutions</a>
-                        <img src="image/btnArrow.png" alt="button arrow">
-                    </button>
+                <div class="btn">
+                    <p>See all of our solutions</p>
+                    <img src="image/btnArrow.png" alt="button arrow">
                 </div>
             </div>
         </div>
@@ -126,7 +129,7 @@
                 <h2>WHAT'S HAPPENING IN COMVERSE?</h2>
                 <ul class="main-event-box">
                     <li>
-                        <h3>NEWS</h3>
+                        <p>NEWS</p>
                         <div class="event-box">
                             <div class="date">
                                 <a id="num">04</a>
@@ -140,7 +143,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3>EVENTS</h3>
+                        <p>EVENTS</p>
                         <div class="event-box">
                             <div class="date">
                                 <a id="num">04</a>
@@ -154,7 +157,7 @@
                         </div>
                     </li>
                     <li>
-                        <h3 id="trans">HIDDEN</h3>
+                        <p id="trans">HIDDEN</p>
                         <div class="event-box">
                             <div class="date">
                                 <a id="num">04</a>
@@ -181,10 +184,10 @@
                                 <img src="image/CB-JP-face.png">
                             </a>
                             <div class="quats">
-                                <img src="image/quote-grey.png">
-                                <p>We have very good and very warm relation with Comverser. We always achievet..."</p>
+                                <img src="image/quote-grey.png" alt="quats icon">
+                                <p>BTC, a full-service provided in Bahamas, depends on Comverse solut..."</p>
                             </div>
-                            <div id="pic" class="info">
+                            <div class="info">
                                 <div class="employee">
                                     <h5>SERGEY KOROTYCH</h5>
                                     <p>Deputy CTO, 3 Mob Ukraine</p>
@@ -213,15 +216,15 @@
                         <a href="#" alt="Sergey Korotych" target="_blank">
                             <img src="image/VIDEOCON_w108px_X_h95px.jpg">
                         </a>
-                        <div id="thumb-8">
+                        <div id="thumb-1">
                             <a href="#" alt="Adale Kehassan" target="_blank">
                                 <img src="image/JT-GM-face.png">
                             </a>
                             <div class="quats">
-                                <img src="image/quote-grey.png">
-                                <p>We have very good and very warm relation with Comverser. We always achievet..."</p>
+                                <img src="image/quote-grey.png" alt="quats icon">
+                                <p>The expectation of Jersey Telecom have been completley met by Comverser.."</p>
                             </div>
-                            <div id="pic" class="info">
+                            <div class="info">
                                 <div class="employee">
                                     <h5>ADALE KAHASSAN</h5>
                                     <p>CIO of Multi-links</p>
@@ -232,14 +235,14 @@
                     </li>
 
                     <li class="right-col">
-                        <div id="thumb-9">
+                        <div id="thumb-2">
                             <a id="hidden" href="#" alt="Adale Kehassan" target="_blank"></a>
                             <div class="quats">
-                                <img src="image/quote-grey.png">
-                                <p>We have very good and very warm relation with Comverser. We always achievet...</p>
+                                <img id="first-img" src="image/quote-grey.png">
+                                <p>Comverse has demonstrated that they are partners, not just suppliers</p>
                                 <img src="image/quote-grey.png">
                             </div>
-                            <div id="pic-right-col" class="info">
+                            <div class="info">
                                 <div class="employee">
                                     <h5>RAVISHANKER</h5>
                                     <p>Tata Sky CIO N.</p>
@@ -255,9 +258,6 @@
                         </a>
                     </li>
                 </ul>
-            </div>
-            <div class="btn-container">
-                <button type="button" class="btn-info">All 256 Success Stories</button>
             </div>
         </div>
     </main>
@@ -343,11 +343,18 @@
                         </li>
                     </ul>
                 </div>
+                <div class="blog">
+                    <div class="blog-post">
+                        <h4>LATEST BLOG POST</h4>
+                        <div class="date">
+                            <a id="num">04</a>
+                            <a id="month">SEP</a>
+                        </div>
+                        <p>Comverse Regains Lead in Convergent Charging Market</p>
+                    </div>
+                </div>
                 <div>
                     <p>Copyright &copy; 2012 Comverse, Inc | Privacy Policy</p>
-                </div>
-                <div class="blog">
-
                 </div>
             </div>
         </div>

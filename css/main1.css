@@ -6,7 +6,6 @@ html {
     font-weight: 500;
     width:100%;
     text-decoration: none;
-
 }
 
 div, h1, p, h2, h3 {
@@ -149,6 +148,7 @@ nav>a:last-of-type:after{
     background-size: contain;
     background-position-y: 2.5em;
     padding-bottom: 1em;
+    position: relative;
 }
 
 .section-1 div span {
@@ -158,6 +158,23 @@ nav>a:last-of-type:after{
 
 .section-1 div p {
     padding-bottom: 0;
+}
+
+.btn {
+    position: relative;
+    background-color: #288fc5;
+    border-radius: 5px;
+}
+
+.btn a {
+    font-size: ;
+}
+
+.btn img {
+    width: 10px;
+    height: auto;
+    position: absolute;
+    right: 0;
 }
 
 .main-box {
@@ -500,6 +517,7 @@ img {
 
 footer {
     background: #222222;
+    padding-bottom: 0.5em;
 }
 
 .links-col {
