@@ -19,6 +19,7 @@ html {
     font-variant: normal;
     font-weight: 500;
     position: relative;
+    box-sizing: border-box;
 }
 
 h1, h2 {
@@ -76,12 +77,12 @@ ul {
 ul.left-nav {
     display: inline-block;
     list-style: none;
-    position: relative;
     margin: 0 auto;
+    padding-left: 0px;
 }
 
 .left-nav > li {
-    float: left;
+    display: inline-block;
     list-style: none;
     margin-right: 1em;
 }
@@ -110,7 +111,7 @@ ul.left-nav {
     border-left: 0.1px solid rgb(193, 183, 197);
     border-spacing: 10px;
     box-shadow: 8px 0px 10px 0px rgba(0,0,0,0.2);
-    height: 80%;
+    height: 1em;
     padding-bottom: 0;
     overflow: visible;
 }
@@ -119,14 +120,15 @@ ul.left-nav {
     border-top: none;
     display: none;
     position: absolute;
-    top: 4em;
+    top: 7em;
     left: 0;
-    width: 100%;
 }
 
 .left-nav ul a {
     background-color: #ffffff;
-    width: 100%;
+    text-align: left;
+    float: left;
+    display: inline-block;
 }
 
 .left-nav ul a:hover,
@@ -136,7 +138,29 @@ ul.left-nav {
 
 .left-nav > li:hover > ul {
     display: block;
-    padding-top: 0.3em;
+    background-color: #ffffff;
+    margin-top: 0.3em;
+    position: absolute;
+    top: 8em;
+    left: 13em;
+    width: 960px;
+    height: 20em;
+    line-height: 1em;
+}
+
+.sub-menu div{
+    display: inline-block;
+}
+
+.sub-menu div img {
+    width: 270px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 1em;
+    border-left: 0.5px solid #000000;
+    padding-left: 10em;
+    padding-right: 2em;
 }
 
 .left-nav>a:after {

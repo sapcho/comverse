@@ -19,7 +19,12 @@ html {
     font-variant: normal;
     font-weight: 500;
     position: relative;
+    box-sizing: border-box;
 }
+
+/* *, *:before, *:after {
+    box-sizing: inherit;
+}*/
 
 h1, h2 {
     font-weight: 100;
@@ -47,16 +52,16 @@ ul {
     height: auto;
     position: fixed;
     z-index: 1;
-    padding-top: 1em;
+    padding-top: 2em;
     width: 100%;
     list-style-type: none;
     overflow: visible;
 }
 
 .header img {
-    padding-top: 0.3em;
     width: 17em;
     height: auto;
+    padding-bottom: 2em;
 }
 
 /*.header nav {
@@ -93,11 +98,7 @@ ul.left-nav {
     text-decoration: none;
     width: 100%;
     font-size: 1.3em;
-    padding: 1em 1em 0 1em;
-
-}
-
-.left-nav > li > a {
+    padding: 1em 1em 1em 1em;
     font-weight: 100;
 }
 
@@ -119,7 +120,7 @@ ul.left-nav {
     border-top: none;
     display: none;
     position: absolute;
-    top: 4em;
+    top: 3em;
     left: 0;
     width: 100%;
 }
@@ -127,6 +128,7 @@ ul.left-nav {
 .left-nav ul a {
     background-color: #ffffff;
     width: 100%;
+    text-align: left;
 }
 
 .left-nav ul a:hover,
@@ -134,20 +136,43 @@ ul.left-nav {
     color: blue;
 }
 
-.left-nav > li:hover > ul {
-    display: block;
-    padding-top: 0.3em;
+.left-nav li a ul {
+    /*display: inline-block;*/
+    position: relative;
 }
 
+/*.left-nav ul div {
+    float: left;
+}*/
+
+div li a, div li img {
+    text-align: left;
+}
+
+div img:before {
+    content: url("./../image/line_divider_video.png");
+}
+
+.left-nav > li:hover > ul {
+    display: block;
+    padding-top: 0.2em;
+}
+
+.sub-menu {
+    width: 960px;
+    padding: 0 !important;
+}
+
+
 .left-nav>a:after {
-    content: '|';
+    content: url("./../image/line_divider_video.png");
     padding-left: 2em;
     padding-right: 2em;
     color: #d1d1d1;
 }
 
 .right-nav>a:first-of-type:after {
-    content: '|';
+    content: url("./../image/line_divider_video.png");
     padding-left: 1em;
     padding-right: 1em;
     color: #d1d1d1;
@@ -159,6 +184,7 @@ ul.left-nav {
 
 .user-p {
     float: right;
+    color: #585951;
 }
 
 .search-bar {
@@ -180,7 +206,7 @@ ul.left-nav {
     width:105px;
     border:0px solid;
     height:13px;
-    padding:0px 0px;
+    padding:0px;
     position:relative;
     border-left-color: #4fa7c8;
 }
