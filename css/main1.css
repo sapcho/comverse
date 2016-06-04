@@ -129,6 +129,7 @@ ul.left-nav {
     background-color: #ffffff;
     width: 100%;
     text-align: left;
+    vertical-align: top;
 }
 
 .left-nav ul a:hover,
@@ -137,8 +138,13 @@ ul.left-nav {
 }
 
 .left-nav li a ul {
-    /*display: inline-block;*/
-    position: relative;
+    /*display: inline-block;
+    position: relative;*/
+}
+
+.sub-menu {
+    height: 10em;
+
 }
 
 /*.left-nav ul div {
@@ -149,9 +155,15 @@ div li a, div li img {
     text-align: left;
 }
 
-div img:before {
-    content: url("./../image/line_divider_video.png");
-}
+/*ul > div > li:nth-child(1):before {
+    content: "";
+    display: inline-block;
+    vertical-align: bottom;
+    background: url("./../image/line_divider_video.png");
+    height: 5px;
+    width: 1px;
+    margin: 0 0.6em;
+}*/
 
 .left-nav > li:hover > ul {
     display: block;
@@ -160,7 +172,6 @@ div img:before {
 
 .sub-menu {
     width: 960px;
-    padding: 0 !important;
 }
 
 

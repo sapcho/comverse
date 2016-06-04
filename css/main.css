@@ -109,19 +109,16 @@ ul.left-nav {
     border-right: 0.1px solid rgb(193, 183, 197);
     border-bottom-style: none;
     border-left: 0.1px solid rgb(193, 183, 197);
-    border-spacing: 10px;
     box-shadow: 8px 0px 10px 0px rgba(0,0,0,0.2);
     height: 1em;
     padding-bottom: 0;
     overflow: visible;
+    height: 20px;
 }
 
-.left-nav > li > ul {
+.sub-menu {
     border-top: none;
     display: none;
-    position: absolute;
-    top: 7em;
-    left: 0;
 }
 
 .left-nav ul a {
@@ -129,6 +126,8 @@ ul.left-nav {
     text-align: left;
     float: left;
     display: inline-block;
+    top: 3.5em;
+
 }
 
 .left-nav ul a:hover,
@@ -136,7 +135,7 @@ ul.left-nav {
     color: blue;
 }
 
-.left-nav > li:hover > ul {
+.left-nav > li:hover > div {
     display: block;
     background-color: #ffffff;
     margin-top: 0.3em;
@@ -144,40 +143,52 @@ ul.left-nav {
     top: 8em;
     left: 13em;
     width: 960px;
-    height: 20em;
+    height: 30em;
     line-height: 1em;
+    border-bottom: 0.1px solid rgb(193, 183, 197);
+    border-right: 0.1px solid rgb(193, 183, 197);
+    border-top-style: none;
+    border-left: 0.1px solid rgb(193, 183, 197);
+    box-shadow: 8px 0px 10px 0px rgba(0,0,0,0.2);
 }
 
-.sub-menu div{
+.sub-menu ul{
     display: inline-block;
+    vertical-align: top;
+    padding-top: 1.5em;
 }
 
-.sub-menu div img {
-    width: 270px;
+.sub-menu ul img {
+    width: 340px;
     height: auto;
     position: absolute;
     right: 0;
-    top: 1em;
-    border-left: 0.5px solid #000000;
-    padding-left: 10em;
+    top: 2em;
     padding-right: 2em;
 }
 
-.left-nav>a:after {
-    content: '|';
-    padding-left: 2em;
-    padding-right: 2em;
-    color: #d1d1d1;
-}
-
-.right-nav>a:first-of-type:after {
-    content: '|';
+/*.left-nav>a:after {
     padding-left: 1em;
-    padding-right: 1em;
+    padding-right: 2em;
     color: #d1d1d1;
+}*/
+
+li > div > ul:nth-child(3):after {
+    content: url("./../image/line_divider_video.png");
+    display: inline-block;
+    vertical-align: bottom;
+    height: 20px;
+    width: 1px;
+    position: absolute;
+    right: 40em;
 }
 
-.right-nav>a:last-of-type:after{
+.right-nav {
+    color: #585951;
+    font-size: 1.3em;
+}
+
+.right-nav>a:last-of-type:before{
     content: '';
 }
 
