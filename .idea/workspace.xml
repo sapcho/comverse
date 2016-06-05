@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d090f554-0f3d-4ac9-9cc0-8b543b948671" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="comverse.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -257,7 +254,7 @@
       <workItem from="1462717353254" duration="17831000" />
       <workItem from="1463434498439" duration="149000" />
       <workItem from="1463434811525" duration="27421000" />
-      <workItem from="1463992299532" duration="61736000" />
+      <workItem from="1463992299532" duration="61752000" />
     </task>
     <task id="LOCAL-00001" summary="18st draft">
       <created>1465042949916</created>
@@ -280,11 +277,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465074285498</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="20st draft">
+      <created>1465158010646</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1465158010646</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165887000" />
+    <option name="totallyTimeSpent" value="165903000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -350,7 +354,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="18st draft" />
     <MESSAGE value="19st draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="19st draft" />
+    <MESSAGE value="20st draft" />
+    <option name="LAST_COMMIT_MESSAGE" value="20st draft" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
